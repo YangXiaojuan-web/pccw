@@ -1,0 +1,10 @@
+heartbeat:
+  version: @project.version@
+  release:
+    time: @timestamp@
+spring:
+  thymeleaf:
+    encoding: UTF-8
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

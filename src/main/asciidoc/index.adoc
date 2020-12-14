@@ -1,0 +1,52 @@
+= Interface Documentation
+:author: YXJ
+:email: test@pccw.com
+:toc: left
+:toc-title interview
+
+== documentation (/)
+Shows this documentation.
+
+== documentation (/docs)
+Shows this documentation.
+
+== version info (/heartbeat)
+include::{snippets}/heartbeat/curl-request.adoc[]
+include::{snippets}/heartbeat/http-request.adoc[]
+include::{snippets}/heartbeat/http-response.adoc[]
+include::{snippets}/heartbeat/httpie-request.adoc[]
+include::{snippets}/heartbeat/request-body.adoc[]
+include::{snippets}/heartbeat/response-body.adoc[]
+
+== create user (/user)
+include::{snippets}/createUser/curl-request.adoc[]
+include::{snippets}/createUser/http-request.adoc[]
+include::{snippets}/createUser/http-response.adoc[]
+include::{snippets}/createUser/httpie-request.adoc[]
+include::{snippets}/createUser/request-body.adoc[]
+include::{snippets}/createUser/response-body.adoc[]
+
+== user login (/user/login)
+include::{snippets}/userLogin/curl-request.adoc[]
+include::{snippets}/userLogin/http-request.adoc[]
+include::{snippets}/userLogin/http-response.adoc[]
+include::{snippets}/userLogin/httpie-request.adoc[]
+include::{snippets}/userLogin/request-body.adoc[]
+include::{snippets}/userLogin/response-body.adoc[]
+
+== get user info (/user)
+include::{snippets}/getUserInfo/curl-request.adoc[]
+include::{snippets}/getUserInfo/http-request.adoc[]
+include::{snippets}/getUserInfo/http-response.adoc[]
+include::{snippets}/getUserInfo/httpie-request.adoc[]
+include::{snippets}/getUserInfo/request-body.adoc[]
+include::{snippets}/getUserInfo/response-body.adoc[]
+
+== user logout (/user/logout)
+include::{snippets}/userLogout/curl-request.adoc[]
+include::{snippets}/userLogout/http-request.adoc[]
+include::{snippets}/userLogout/http-response.adoc[]
+include::{snippets}/userLogout/httpie-request.adoc[]
+include::{snippets}/userLogout/request-body.adoc[]
+include::{snippets}/userLogout/response-body.adoc[]
+
